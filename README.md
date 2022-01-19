@@ -5,9 +5,11 @@ logbook-openapi-src is a source generates libraries for [Logbook API](https://gi
 This code generates following two modules;
 
 - [logbook-go](https://github.com/umatare5/logbook-go)
+
   Go Client to use Logbook API.
 
 - [logbook-api-framework-impl](https://github.com/umatare5/logbook-api-framework-impl)
+
   Implementation for framework layer in Logbook API.
 
 ## Development
