@@ -1,21 +1,16 @@
-# logbook-go
+# logbook-openapi-src
 
-logbook-go is Go library to use [Logbook API](https://github.com/umatare5/logbook-api).
+logbook-openapi-src is a source generates libraries for [Logbook API](https://github.com/umatare5/logbook-api).
 
-## Usage
+This code generates following two modules;
 
-```sh
-go get github.com/umatare5/logbook-go
-```
+- [logbook-go](https://github.com/umatare5/logbook-go)
+  Go Client to use Logbook API.
 
-## Features
-
-- Get profile
-- Fetch divelogs
+- [logbook-api-framework-impl](https://github.com/umatare5/logbook-api-framework-impl)
+  Implementation for framework layer in Logbook API.
 
 ## Development
-
-The code is generated from OpenAPI Specification.
 
 ### Setup
 
@@ -30,8 +25,6 @@ The code is generated from OpenAPI Specification.
   ```sh
   go install github.com/deepmap/oapi-codegen/cmd/oapi-codegen@latest
   ```
-
-## Operation
 
 ### Build
 
