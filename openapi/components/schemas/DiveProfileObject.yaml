@@ -1,0 +1,12 @@
+# DiveProfileObject.yaml
+properties:
+  profile_time:
+    type: number
+  pressure:
+    type: string
+  temperature:
+    type: string
+  direction:
+    type: number
+  ndl:
+    type: number

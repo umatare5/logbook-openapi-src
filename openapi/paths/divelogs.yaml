@@ -1,0 +1,16 @@
+# deleted.yaml
+get:
+  description: Return the list of divelogs
+  operationId: getDivelogs
+  parameters:
+    - $ref: '../components/parameters/limitParam.yaml'
+    - $ref: '../components/parameters/cursorParam.yaml'
+  responses:
+    '200':
+      description: Return list of divelogs
+      content:
+        application/json:
+          schema:
+            $ref: '../components/schemas/DiveLogWrapperResponse.yaml'
+    default:
+      $ref: '../components/responses/ErrorResponse.yaml'

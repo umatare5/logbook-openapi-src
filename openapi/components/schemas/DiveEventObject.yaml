@@ -1,0 +1,10 @@
+# DiveEventObject.yaml
+properties:
+  event_time:
+    type: number
+  event_type:
+    type: number
+  event_code:
+    type: number
+  event_value:
+    type: number

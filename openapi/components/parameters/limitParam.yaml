@@ -1,0 +1,6 @@
+name: limit
+description: The numbers of items to return
+in: query
+schema:
+  type: integer
+  default: 10

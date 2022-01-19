@@ -1,0 +1,6 @@
+name: cursor
+description: A unique identifier for a specific record
+in: query
+schema:
+  type: string
+  default: ""

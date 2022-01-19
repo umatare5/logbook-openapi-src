@@ -1,0 +1,15 @@
+# {divelogId}.yaml
+get:
+  description: Return a divelog
+  operationId: getDivelog
+  parameters:
+    - $ref: '../../components/parameters/divelogId.yaml'
+  responses:
+    '200':
+      description: Return a divelog
+      content:
+        application/json:
+          schema:
+            $ref: '../../components/schemas/SingleDiveLogWrapperResponse.yaml'
+    default:
+      $ref: '../../components/responses/ErrorResponse.yaml'

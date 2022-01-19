@@ -1,0 +1,8 @@
+# DiveLogsWrapperObject.yaml
+properties:
+  divelogs:
+    type: array
+    items:
+      $ref: './DiveLogWrapperObject.yaml'
+  page_info:
+    $ref: './DiveLogPageInfoObject.yaml'

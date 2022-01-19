@@ -1,0 +1,19 @@
+openapi: "3.0.3"
+info:
+  version: 0.1.0
+  title: Logbook API
+  description: Client for Logbook API
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+servers:
+  - url: https://localhost/api/v1
+paths:
+  /divelogs:
+    $ref: './paths/divelogs.yaml'
+  /divelog/{divelogId}:
+    $ref: './paths/divelog/{divelogId}.yaml'
+  /admin/health:
+    $ref: './paths/admin/health.yaml'
+  /admin/tokens:
+    $ref: './paths/admin/tokens.yaml'

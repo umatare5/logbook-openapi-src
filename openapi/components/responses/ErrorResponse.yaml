@@ -1,0 +1,6 @@
+# ErrorResponse.yaml
+description: unexpected error
+content:
+  application/json:
+    schema:
+      $ref: './ErrorObject.yaml'

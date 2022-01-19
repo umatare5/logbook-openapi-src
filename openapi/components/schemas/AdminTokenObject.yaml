@@ -1,0 +1,6 @@
+# DiveEventObject.yaml
+properties:
+  access_token:
+    type: string
+  expired:
+    type: boolean

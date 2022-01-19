@@ -1,0 +1,16 @@
+# DivePointObject.yaml
+properties:
+  poi_id:
+    type: string
+  country_code:
+    type: string
+  poi_region:
+    type: string
+  poi_name:
+    type: string
+  poi_type:
+    type: string
+  gps_location:
+    $ref: './GpsLocationObject.yaml'
+  log_count:
+    type: number

@@ -1,0 +1,6 @@
+# AdminHealthResponse.yaml
+properties:
+  code:
+    type: string
+  message:
+    type: string

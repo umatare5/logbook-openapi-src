@@ -1,0 +1,6 @@
+# GpsLocationObject.yaml
+properties:
+  longitude:
+    type: number
+  latitude:
+    type: number

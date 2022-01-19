@@ -1,0 +1,9 @@
+# ErrorObject.yaml
+properties:
+  code:
+    type: string
+    format: int32
+    description: Error code
+  message:
+    type: string
+    description: Error message

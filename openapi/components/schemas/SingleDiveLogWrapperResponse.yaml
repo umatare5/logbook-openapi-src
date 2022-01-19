@@ -1,0 +1,8 @@
+# SingleDiveLogsWrapperResponse.yaml
+properties:
+  code:
+    type: string
+  message:
+    type: string
+  response:
+    $ref: './SingleDiveLogWrapperObject.yaml'

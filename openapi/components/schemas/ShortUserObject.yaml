@@ -1,0 +1,10 @@
+# ShortUserObject.yaml
+properties:
+  user_id:
+    type: string
+  user_name:
+    type: string
+  profile_image_path:
+    type: string
+  certification_id:
+    type: string

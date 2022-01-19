@@ -1,0 +1,24 @@
+# DiveLogWrapperObject.yaml
+properties:
+  divelog_id:
+    type: string
+  dive_type:
+    type: string
+  user:
+    $ref: './ShortUserObject.yaml'
+  dive_datetime:
+    type: integer
+  dive_duration:
+    type: integer
+  max_depth:
+    type: string
+  poi:
+    $ref: './DivePointObject.yaml'
+  publish_status:
+    type: string
+  timezone:
+    type: integer
+  privacy:
+    type: string
+  media_count:
+    type: integer

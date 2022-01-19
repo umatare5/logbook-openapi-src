@@ -1,0 +1,10 @@
+# DivePointObject.yaml
+properties:
+  media_id:
+    type: string
+  media_path:
+    type: string
+  media_type:
+    type: string
+  sequence:
+    type: number

@@ -1,0 +1,11 @@
+{
+  "name": "logbook-go",
+  "version": "0.1.0",
+  "description": "Libraries for Logbook API",
+  "author": "umatare5",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "swagger-cli": "^4.0.4"
+  }
+}

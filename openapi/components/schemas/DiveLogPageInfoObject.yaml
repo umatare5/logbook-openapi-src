@@ -1,0 +1,6 @@
+# DiveLogPageInfoObject.yaml
+properties:
+  has_next_page:
+    type: boolean
+  end_cursor:
+    type: string

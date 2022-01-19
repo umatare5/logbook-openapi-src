@@ -1,0 +1,13 @@
+# health.yaml
+get:
+  description: Return health status
+  operationId: getAdminHealth
+  responses:
+    '200':
+      description: Return health status
+      content:
+        application/json:
+          schema:
+            $ref: '../../components/schemas/AdminHealthResponse.yaml'
+    default:
+      $ref: '../../components/responses/ErrorResponse.yaml'

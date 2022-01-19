@@ -1,0 +1,158 @@
+# SingleDiveLogObject.yaml
+properties:
+  divelog_id:
+    type: string
+  device_log_id:
+    type: number
+  log_number:
+    type: number
+  user:
+    $ref: './ShortUserObject.yaml'
+  dive_type:
+    type: string
+  dive_datetime:
+    type: integer
+  create_datetime:
+    type: number
+  modify_datetime:
+    type: number
+  delete_datetime:
+    type: number
+  dive_duration:
+    type: integer
+  max_depth:
+    type: string
+  min_temperature:
+    type: string
+  unit:
+    type: integer
+  altitude:
+    type: string
+  water_type:
+    type: integer
+  altitude_type:
+    type: integer
+  no_flight_time:
+    type: integer
+  ppo2:
+    type: string
+  po2:
+    type: integer
+  gf_setting:
+    type: string
+  scuba_time_alarm:
+    type: integer
+  scuba_depth_alarm:
+    type: integer
+  free_time_alarm1:
+    type: integer
+  free_depth_alarm1:
+    type: integer
+  free_time_alarm2:
+    type: integer
+  free_depth_alarm2:
+    type: integer
+  free_time_alarm3:
+    type: integer
+  free_depth_alarm3:
+    type: integer
+  free_time_alarm4:
+    type: integer
+  free_depth_alarm4:
+    type: integer
+  free_time_alarm5:
+    type: integer
+  free_depth_alarm5:
+    type: integer
+  gauge_time_alarm:
+    type: integer
+  gauge_depth_alarm:
+    type: integer
+  log_interval:
+    type: integer
+  max_pressure:
+    type: string
+  dive_profiles:
+    type: array
+    items:
+      $ref: './DiveProfileObject.yaml'
+  event_count:
+    type: number
+  events:
+    type: array
+    items:
+      $ref: './DiveEventObject.yaml'
+  poi:
+    $ref: './DivePointObject.yaml'
+  weather_type:
+    type: integer
+  wave_type:
+    type: integer
+  current_type:
+    type: integer
+  visibility_type:
+    type: integer
+  air_temperature:
+    type: string
+  average_depth:
+    type: string
+  cylinder_size:
+    type: integer
+  air_in:
+    type: integer
+  air_out:
+    type: integer
+  dive_buddies:
+    type: string
+  instructors:
+    type: string
+  divecomputer_brand:
+    type: string
+  divecomputer_model:
+    type: string
+  hardware_serial_no:
+    type: string
+  firmware_version:
+    type: string
+  entry_position:
+    $ref: './GpsLocationObject.yaml'
+  exit_position:
+    $ref: './GpsLocationObject.yaml'
+  publish_status:
+    type: string
+  delete_flag:
+    type: boolean
+  free_descent_count:
+    type: integer
+  timezone:
+    type: integer
+  notes:
+    type: string
+  suit_thickness:
+    type: string
+  weight:
+    type: string
+  like_count:
+    type: integer
+  comment_count:
+    type: integer
+  share_count:
+    type: integer
+  media_count:
+    type: integer
+  privacy:
+    type: string
+  surface_interval:
+    type: integer
+  medias:
+    type: array
+    items:
+      $ref: './MediaObject.yaml'
+  is_liked:
+    type: boolean
+  air_in_text:
+    type: string
+  air_out_text:
+    type: string
+  cylinder_size_text:
+    type: string
