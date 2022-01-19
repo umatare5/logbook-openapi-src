@@ -1,6 +1,6 @@
 # logbook-go
 
-logbook-go is Go client to use [Logbook API](https://github.com/umatare5/logbook-api).
+logbook-go is Go library to use [Logbook API](https://github.com/umatare5/logbook-api).
 
 ## Usage
 
