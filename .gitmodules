@@ -1,0 +1,6 @@
+[submodule "releases/client"]
+	path = releases/client
+	url = git@github.com:umatare5/logbook-go.git
+[submodule "releases/server"]
+	path = releases/server
+	url = git@github.com:umatare5/logbook-api-framework-impl.git

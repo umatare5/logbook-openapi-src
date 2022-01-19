@@ -36,11 +36,12 @@ The code is generated from OpenAPI Specification.
 ### Build
 
 ```sh
-scripts/build.sh
+make build
 ```
 
 ### Release
 
 ```sh
-scripts/release.sh
+git bump
+make release
 ```

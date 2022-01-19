@@ -39,3 +39,12 @@ function validate_goreleaser_exists(){
     exit 1
   fi
 }
+
+# Check .goreleaser.yml exists
+function validate_goreleaser_yml_exists(){
+  local EXPECT_PATH=$1/.goreleaser.yml
+  if [ ! -f "$EXPECT_PATH" ]; then
+    echo -e "\nMissing $EXPECT_PATH. Please put it.\n"
+    exit 1
+  fi
+}
