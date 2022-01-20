@@ -15,5 +15,3 @@ paths:
     $ref: './paths/divelog/{divelogId}.yaml'
   /api/v1/admin/health:
     $ref: './paths/admin/health.yaml'
-  /api/v1/admin/tokens:
-    $ref: './paths/admin/tokens.yaml'
