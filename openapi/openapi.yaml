@@ -7,13 +7,13 @@ info:
     name: MIT
     url: https://opensource.org/licenses/MIT
 servers:
-  - url: https://localhost/api/v1
+  - url: http://localhost:8080
 paths:
-  /divelogs:
+  /api/v1/divelogs:
     $ref: './paths/divelogs.yaml'
-  /divelog/{divelogId}:
+  /api/v1/divelog/{divelogId}:
     $ref: './paths/divelog/{divelogId}.yaml'
-  /admin/health:
+  /api/v1/admin/health:
     $ref: './paths/admin/health.yaml'
-  /admin/tokens:
+  /api/v1/admin/tokens:
     $ref: './paths/admin/tokens.yaml'
